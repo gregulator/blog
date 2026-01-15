@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/css/bootstrap.min.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/css/font-awesome/css/font-awesome.min.css">
+        <!-- Scripts -->
+        <script type="text/javascript" src="{{ site.baseurl }}/js/jquery-2.0.3.min"></script>
+        <style type="text/css">
+            a:link, a:visited, a:hover, a:active {text-decoration: none; color: inherit} 
+        </style>
+
+    </head>
+    <body>
+        <div class="header-image">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-8 headerimage">
+                        <h1 class="site-title"><a href="{{ site.baseurl }}"> meraki </a></h1>
+                    </div>
+                    <div class="col-xs-4 links-box">
+                        <!-- <section class="links-box"> -->
+                         <span><a href="{{site.author_about}}"><i class="fa fa-user fa-lg"></i></a></span>
+                         <span><a href="{{site.author_github}}"><i class="fa fa-github-square fa-lg"></a></i></span>
+                         <span><a href="{{site.author_linkedin}}"><i class="fa fa-linkedin fa-lg"></i></a></span>
+                         <span><a href="{{site.author_twitter}}"><i class="fa fa-twitter-square fa-lg"></a></i></span>
+                        <!-- </section> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">     
+                <div class="col-xs-2"></div>           
+                <div class="col-xs-8">{{content}}</div>
+                <div class="col-xs-2"></div>
+            </div>
+        </div>
+    </body>
+</html>
