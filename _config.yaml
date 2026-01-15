@@ -8,6 +8,8 @@ author: Greg Prisament
 # --- List of links in the navigation bar --- #
 ###############################################
 
+baseurl: /blog/
+
 navbar-links:
   About Me: "aboutme"
   Resources:
